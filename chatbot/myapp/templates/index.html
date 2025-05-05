@@ -130,7 +130,7 @@
               const parser = new DOMParser();
               const doc = parser.parseFromString(html, "text/html");
               const newChatbox = doc.getElementById("chatbox");
-              //chatbox.innerHTML = newChatbox.innerHTML;
+              chatbox.innerHTML = newChatbox.innerHTML;
             })
             .catch((error) => {
               document.querySelector(".loading").innerHTML = `
