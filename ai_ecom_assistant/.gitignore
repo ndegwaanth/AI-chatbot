@@ -1,6 +1,0 @@
-__pycache__/
-*.py[cod]
-.env
-*.sqlite3
-/static/products/
-.DS_Store
